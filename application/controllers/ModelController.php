@@ -513,9 +513,25 @@ class ModelController extends OntoWiki_Controller_Base
                 return;
             } else {
                 // model does not exist, will be created
-                $model = $store->getNewModel(
-                    $newModelUri, $newModelUri, Erfurt_Store::MODEL_TYPE_OWL
-                );
+                try {
+                    $model = $store->getNewModel(
+                        $newModelUri, $newModelUri, Erfurt_Store::MODEL_TYPE_OWL
+                    );
+                } catch (Erfurt_Store_Exception $e) {
+                    if ($e->getCode() == 7) {
+                        $this->_owApp->appendMessage(
+                            new OntoWiki_Message(
+                                'The Value for URI/IRI is invalid.' . PHP_EOL .
+                                'For a Definition of an IRI visit https://www.ietf.org/rfc/rfc3987.txt',
+                                OntoWiki_Message::ERROR
+                            )
+                        );
+                        $this->view->errorFlag = true;
+                        return;
+                    } else {
+                        throw $e;
+                    }
+                }
                 $this->_owApp->appendMessage(
                     new OntoWiki_Message('Knowledge Base successfully created.', OntoWiki_Message::SUCCESS)
                 );
