@@ -33,8 +33,10 @@ foreach($this->extensions as $name => $extension){
             <?php $confUrl = $this->urlBase.(!isset($extension->confAction) ? 'exconf/conf/?name='. $name : $extension->confAction); ?>
                 <h3><span class="name"><a href="<?php echo $confUrl; ?>"><?php echo $extension->title; ?></a></span>
                     <?php
-                        if (isset($extension->author)) {
-                            echo '<em class="author">by '.(isset($extension->authorUrl)?'<a href="'.$extension->authorUrl.'">'.$extension->author.'</a>':$extension->author).'</em>';
+                        if (isset($extension->authorLabel)) {
+                            echo '<em class="author">by '. (isset($extension->authorUrl)
+                                ? '<a href="'.$extension->authorUrl.'">'. $extension->authorLabel .'</a>'
+                                : $extension->authorLabel) .'</em>';
                         }
                     ?>
                 </h3>
