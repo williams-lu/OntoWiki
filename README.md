@@ -5,6 +5,11 @@
 
 ![](https://raw.github.com/wiki/AKSW/OntoWiki/images/owHeader.png)
 
+## Documentation
+
+The Documentation is hosted at https://docs.ontowiki.net/ . If you find errors or think we should add something to it
+you are free to fork https://github.com/AKSW/docs.ontowiki.net and send us a pull requst with your changes.
+
 ## Introduction
 
 is a tool providing support for agile, distributed knowledge engineering scenarios.
@@ -18,8 +23,6 @@ Other remarkable features are:
 * OntoWiki is a Semantic Pingback Client in order to receive and send back-linking request as known from the blogosphere.
 * OntoWiki is backend independent, which means you can save your data on a MySQL database as well as on a Virtuoso Triple Store.
 * OntoWiki is easily extendible by you, since it features a sophisticated Extension System.
-
-You can find the Documentation at https://docs.ontowiki.net/ .
 
 ## Installation/Update
 
