@@ -1,3 +1,5 @@
+## &#x1F534; **This Documentation is deprecated, you can find the new Documentation at https://docs.ontowiki.net/**.
+
 # OntoWiki
 
 [![Build Status](http://owdev.ontowiki.net/job/OntoWiki/badge/icon)](http://owdev.ontowiki.net/job/OntoWiki/)
