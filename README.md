@@ -1,5 +1,3 @@
-## &#x1F534; **This Documentation is deprecated, you can find the new Documentation at https://docs.ontowiki.net/**.
-
 # OntoWiki
 
 [![Build Status](http://owdev.ontowiki.net/job/OntoWiki/badge/icon)](http://owdev.ontowiki.net/job/OntoWiki/)
@@ -21,12 +19,14 @@ Other remarkable features are:
 * OntoWiki is backend independent, which means you can save your data on a MySQL database as well as on a Virtuoso Triple Store.
 * OntoWiki is easily extendible by you, since it features a sophisticated Extension System.
 
+You can find the Documentation at https://docs.ontowiki.net/ .
+
 ## Installation/Update
 
-If you are updating OntoWiki, please don't forget to run `make deploy`.
-If `make deploy` fails, you might also have to run `make getcomposer` once before run `make deploy` again.
+If you are updating OntoWiki, please don't forget to run `make install`.
+If `make install` fails, you might also have to run `make getcomposer` once before run `make deploy` again.
 
-For further installation instructions please have a look at our [wiki](https://github.com/AKSW/OntoWiki/wiki/GetOntowikiUsers) (might be outdated in some parts).
+For further installation instructions please have a look at our [wiki](https://docs.ontowiki.net/) (might be outdated in some parts).
 
 ## Screenshot / Webinar
 Below is a screenshot showing OntoWiki in editing mode.
