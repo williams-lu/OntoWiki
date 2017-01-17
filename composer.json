@@ -14,13 +14,25 @@
             "homepage": "http://aksw.org"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/AKSW/csvimport.ontowiki"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/AKSW/installers"
+        }
+    ],
     "require": {
         "php": ">=5.4.0",
         "mnsami/composer-custom-directory-installer": "1.1.*",
         "aksw/erfurt": "1.8.*",
         "bitworking/mimeparse": "2.1.*",
         "zendframework/zendframework1": "1.*",
-        "aksw/rdfauthor": "dev-develop"
+        "aksw/rdfauthor": "dev-develop",
+        "composer/installers": "dev-feature/OntoWikiInstaller",
+        "aksw/csvimport.ontowiki": "dev-feature/composer"
     },
     "require-dev": {
         "phpunit/phpunit": "4.5.*",
