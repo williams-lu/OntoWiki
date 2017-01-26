@@ -4,38 +4,26 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "30dca55086907f304f45044be7a3c310",
-    "content-hash": "31775d721c2b1b2e83e85cf0969de453",
+    "hash": "d9bbb0859bc93f9623ec5bad42887a69",
+    "content-hash": "4cee3ec748a7285096c205fc39b548ec",
     "packages": [
         {
             "name": "aksw/csvimport.ontowiki",
-            "version": "dev-feature/composer",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/AKSW/csvimport.ontowiki.git",
-                "reference": "f55a0e29837962a999a0caa736a7509a121ff82e"
+                "reference": "9a0ecacb65305c8e2ba538d1cc78350687c0207c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AKSW/csvimport.ontowiki/zipball/f55a0e29837962a999a0caa736a7509a121ff82e",
-                "reference": "f55a0e29837962a999a0caa736a7509a121ff82e",
+                "url": "https://api.github.com/repos/AKSW/csvimport.ontowiki/zipball/9a0ecacb65305c8e2ba538d1cc78350687c0207c",
+                "reference": "9a0ecacb65305c8e2ba538d1cc78350687c0207c",
                 "shasum": ""
             },
-            "type": "ontowiki-extension",
-            "license": [
-                "GPL-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Natanael Arndt",
-                    "email": "arndtn@gmail.com"
-                }
-            ],
-            "support": {
-                "source": "https://github.com/AKSW/csvimport.ontowiki/tree/feature/composer",
-                "issues": "https://github.com/AKSW/csvimport.ontowiki/issues"
-            },
-            "time": "2017-01-16 17:42:35"
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2014-01-31 21:24:08"
         },
         {
             "name": "aksw/erfurt",
@@ -524,12 +512,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/instantiator.git",
-                "reference": "416fb8ad1d095a87f1d21bc40711843cd122fd4a"
+                "reference": "68099b02b60bbf3b088ff5cb67bf506770ef9cac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/instantiator/zipball/416fb8ad1d095a87f1d21bc40711843cd122fd4a",
-                "reference": "416fb8ad1d095a87f1d21bc40711843cd122fd4a",
+                "url": "https://api.github.com/repos/doctrine/instantiator/zipball/68099b02b60bbf3b088ff5cb67bf506770ef9cac",
+                "reference": "68099b02b60bbf3b088ff5cb67bf506770ef9cac",
                 "shasum": ""
             },
             "require": {
@@ -570,7 +558,7 @@
                 "constructor",
                 "instantiate"
             ],
-            "time": "2016-03-31 10:24:22"
+            "time": "2017-01-23 09:23:06"
         },
         {
             "name": "phpdocumentor/reflection-common",
@@ -1528,12 +1516,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "521692bdcc69c2d2ab423ec0dbc6ee0e610d3f68"
+                "reference": "8120537a8967c3135a2f01db663d11fc2890be2c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/521692bdcc69c2d2ab423ec0dbc6ee0e610d3f68",
-                "reference": "521692bdcc69c2d2ab423ec0dbc6ee0e610d3f68",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/8120537a8967c3135a2f01db663d11fc2890be2c",
+                "reference": "8120537a8967c3135a2f01db663d11fc2890be2c",
                 "shasum": ""
             },
             "require": {
@@ -1598,7 +1586,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2017-01-16 04:27:55"
+            "time": "2017-01-24 22:42:19"
         },
         {
             "name": "symfony/yaml",
@@ -1606,12 +1594,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "dbe61fed9cd4a44c5b1d14e5e7b1a8640cfb2bf2"
+                "reference": "322a8c2dfbca15ad6b1b27e182899f98ec0e0153"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/dbe61fed9cd4a44c5b1d14e5e7b1a8640cfb2bf2",
-                "reference": "dbe61fed9cd4a44c5b1d14e5e7b1a8640cfb2bf2",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/322a8c2dfbca15ad6b1b27e182899f98ec0e0153",
+                "reference": "322a8c2dfbca15ad6b1b27e182899f98ec0e0153",
                 "shasum": ""
             },
             "require": {
@@ -1647,7 +1635,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2017-01-03 13:49:52"
+            "time": "2017-01-21 16:40:50"
         },
         {
             "name": "webmozart/assert",
